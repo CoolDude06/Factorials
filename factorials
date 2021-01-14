@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main()
+{
+    int x;
+    int i = 0;
+    int factorial = 1;
+    std::cout << "Enter the number you would like to find the factorial for \n";
+    std::cin >> x;
+    while (i < x) {
+
+        i++;
+        factorial = factorial * i;
+
+    }
+
+    std::cout << "Factorial of " << x << " is " << factorial;
+}
+
+//
